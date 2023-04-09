@@ -19,11 +19,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Project screenshot](qr-code-component-main/design/screenshot.png)
 
 ### Links
 
-- Live Site URL: [QR code component](https://devgabrielrocha.github.io/frontend-mentor/qr-code-component-main/index.html)
+- Live Site URL: [QR code component](https://devgabrielrocha.github.io/project-qr-code-component-main/qr-code-component-main/index.html)
 
 ## My process
 
@@ -44,7 +44,7 @@ I will study more about Sass, I saw the recommendation in the instructions, but 
 
 ### Useful resources
 
-- [Curso em vídeo](https://youtu.be/xFtquKPf7Ug) - I found out about Frontend Mentor through Attekita Dev.
+- [Attekita Dev](https://youtu.be/xFtquKPf7Ug) - I found out about Frontend Mentor through Attekita Dev.
 - [Curso em vídeo](https://www.cursoemvideo.com/) - I applied the knowledge of the HTML 5 and CSS.
 
 ## Author
