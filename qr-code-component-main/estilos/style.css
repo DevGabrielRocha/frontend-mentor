@@ -12,12 +12,14 @@
     --color-dark-blue: hsl(218, 44%, 22%);
     
     --font-size-paragraph: 15px;
-    --font-family: 'Outfit', sans-serif;
+    --font: 'Outfit', sans-serif;
   }
 
   body {
+    height: 943h;
+    width: 100vw;
     background-color: var(--color-light-gray);
-    font-family: var(--font-family);
+    font-family: var(--font);
   }
 
   main {
@@ -39,7 +41,7 @@
     margin: 10px;
     font-size: 18px;
     font-weight: 700;
-    color: hsl(218, 44%, 22%);
+    color: var(--color-dark-blue);
   }
 
   #p2 {
@@ -47,14 +49,15 @@
     margin-bottom: 10px;
     font-size: 12px;
     font-weight: 400;
-    color: hsl(220, 15%, 55%);
+    color: var(--color-grayish-blue);
   }
 
   .attribution { 
+    position: relative;
     font-size: 11px; 
-    margin-bottom: 10px;
     text-align: center; 
   }
+  
   .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--color-grayish-blue); 
   }
