@@ -16,8 +16,7 @@
   }
 
   body {
-    height: 943h;
-    width: 100vw;
+    height: 92vh;
     background-color: var(--color-light-gray);
     font-family: var(--font);
   }
@@ -36,7 +35,7 @@
     border-radius: 10px;
   }
 
-  #p1 {
+  #t1 {
     text-align: center;
     margin: 10px;
     font-size: 18px;
@@ -44,9 +43,9 @@
     color: var(--color-dark-blue);
   }
 
-  #p2 {
+  #p1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     font-size: 12px;
     font-weight: 400;
     color: var(--color-grayish-blue);
@@ -54,10 +53,17 @@
 
   .attribution { 
     position: relative;
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 0.7em; 
+    text-align: center;
+    color: var(--color-dark-blue); 
   }
-  
+
   .attribution a { 
-    color: var(--color-grayish-blue); 
+    text-decoration: none;
+    color: var(--color-dark-blue); 
+  }
+
+  .attribution a:hover {
+    color: var(--color-grayish-blue);
+    text-decoration: underline;
   }
